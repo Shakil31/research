@@ -1,0 +1,141 @@
+.login-container {
+  background-image:
+  url("../src/Components/image/4578830.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #f1f1f1;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #d9d4fe;
+  color: black;
+}
+
+
+.connected-container {
+  background-image:
+  url("../src/Components/image/4785400.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  color: #f2f2f2;
+}
+
+.connected-header {
+  font-size: 4rem;
+  margin-top: -100px;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.connected-header:hover{
+  color: aqua;
+}
+.connected-account {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.connected-account:hover {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: black;
+  background-image:linear-gradient(to right top, #0066ff, #7a88ff, #afadff, #d9d4fe, #fdfdfd);
+}
+
+.connected-account1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #19C8FF;
+}
+.connected-account1:hover{
+  color: black;
+  background-image:linear-gradient(to right top, #0066ff, #7a88ff, #afadff, #d9d4fe, #fdfdfd);;
+} 
+
+.connected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.connected-button:hover {
+  background-color: #0069d9;
+}
+
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.candidates-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+  color: black;
+  
+}
+.candidates-table:hover {
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+  color: #19C8FF;
+
+  
+}
+
+.candidates-table th, .candidates-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+ 
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+}
+
+input[type=number] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
